@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    dhcp:
+        container_name: servidorasir2a_dhcp
+        hostname: servidor_dhcp
+        network_mode: host
+        image: networkboot/dhcpd
+        volumes:
+          - /home/asir2a/Escritorio/Docker/Practica_DHCP/data:/data
+        
