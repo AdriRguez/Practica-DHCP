@@ -47,4 +47,4 @@ subnet 10.0.9.0 netmask 255.255.255.0 {
 
 Despues para asignar la ip fija, abrimos la maquina virtual ponemos el adaptador en modo bridge y vemos la MAC, la añadimos al dhcpd.conf y le pedimos una ip al DHCP.
 
-![Imagen IP DHCP](../Imagenes/dhcpIP.png)
+![Imagen IP DHCP](./Imagenes/dhcpIP.png)
